@@ -33,7 +33,7 @@ def change_background_color():
 all_sprites_list = pygame.sprite.Group()
 sp1 = Sprite(pygame.Color('white'), 20, 30)
 sp1.rect.x = random.randint(0, 480)
-sp1.rect.y = random.radnint(0, 370)
+sp1.rect.y = random.randint(0, 370)
 all_sprites_list.add(sp1)
 pygame.display.set_mode((500, 400))
 pygame.display.set_caption("Boundary Sprite")
